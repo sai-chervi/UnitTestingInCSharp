@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UnitTestingCSharp
 {
-	class InstanceMethodsClass
+	public class InstanceMethodsClass
 	{
 		public int PublicInstanceMethod_Add(int a, int b)
         {
