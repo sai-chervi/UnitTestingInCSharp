@@ -1,0 +1,14 @@
+
+UnitTestingCSharp/bin/Debug/UnitTestingCSharp.dll
+*.pdb
+UnitTestingCSharp/.vs/UnitTestingCSharp/v16/.suo
+UnitTestingCSharp/obj/Debug/UnitTestingCSharp.csproj.CoreCompileInputs.cache
+*.dll
+UnitTestingCSharp/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+UnitTestingCSharp/UnitTestProject/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+UnitTestingCSharp/UnitTestProject/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+UnitTestingCSharp/obj/Debug/UnitTestingCSharp.csproj.FileListAbsolute.txt
+UnitTestingCSharp/obj/Debug/UnitTestingCSharp.csprojAssemblyReference.cache
+UnitTestingCSharp/UnitTestProject/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
+UnitTestingCSharp/UnitTestProject/obj/Debug/UnitTestProject.csprojAssemblyReference.cache
+UnitTestingCSharp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache

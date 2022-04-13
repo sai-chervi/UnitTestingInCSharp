@@ -10,7 +10,8 @@ using UnitTestingCSharp;
 
 namespace UnitTestProject
 {
-    class StaticMethodsClassUnitTests
+	[TestClass]
+	public class StaticMethodsClassUnitTests
     {
 		[TestMethod]
 		public void PublicStaticMethod_Multiply_Test()

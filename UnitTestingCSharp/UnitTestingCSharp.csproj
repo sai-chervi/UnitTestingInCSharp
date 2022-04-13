@@ -41,6 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SingletonClass.cs" />
+    <Compile Include="StaticMethodInNonStaticClass.cs" />
+    <Compile Include="StaticMethodInStaticClass.cs" />
     <Compile Include="StaticMethodsClass.cs" />
     <Compile Include="InstanceMethodsClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
