@@ -14,12 +14,15 @@ namespace UnitTestProject
 		{
 			//Arrange
 			InstanceMethodsClass instance = new InstanceMethodsClass();
+			PrivateObject obj = new PrivateObject(instance);
 
 			//Act
 			int result = instance.PublicInstanceMethod_Add(5, 6);
+			int sum = (int)obj.GetFieldOrProperty("sum");
 
 			//Assert
 			Assert.AreEqual(11, result);
+			Assert.AreEqual(11, sum);
 		}
 
 		[TestMethod]
@@ -28,10 +31,14 @@ namespace UnitTestProject
 			//Arrange
 			InstanceMethodsClass instance = new InstanceMethodsClass();
 			PrivateObject obj = new PrivateObject(instance);
+			
 			//Act
 			object result = obj.Invoke("PrivateInstanceMethod_Subtract", new Type[] { 6.GetType(), 5.GetType() }, new object[] { 6, 5 });
 			int answer = int.Parse(result.ToString());
+			int diff = (int)obj.GetFieldOrProperty("diff");
+			
 			//Assert
+			Assert.AreEqual(1, diff);
 			Assert.AreEqual(1, answer);
 		}
 	}

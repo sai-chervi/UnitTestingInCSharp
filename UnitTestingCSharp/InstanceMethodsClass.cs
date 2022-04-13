@@ -8,14 +8,17 @@ namespace UnitTestingCSharp
 {
 	public class InstanceMethodsClass
 	{
+		int sum, diff;
 		public int PublicInstanceMethod_Add(int a, int b)
         {
-			return a + b;
+			sum = a + b;
+			return sum;
         }
 
 		private int PrivateInstanceMethod_Subtract(int a, int b)
         {
-			return a - b;
+			diff = a - b;
+			return diff;
         }
 	}
 }

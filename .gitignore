@@ -12,3 +12,14 @@ UnitTestingCSharp/obj/Debug/UnitTestingCSharp.csprojAssemblyReference.cache
 UnitTestingCSharp/UnitTestProject/obj/Debug/.NETFramework,Version=v4.8.AssemblyAttributes.cs
 UnitTestingCSharp/UnitTestProject/obj/Debug/UnitTestProject.csprojAssemblyReference.cache
 UnitTestingCSharp/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+UnitTestingCSharp/UnitTestProject/obj/Debug/UnitTestProject.csproj.FileListAbsolute.txt
+UnitTestingCSharp/UnitTestProject/obj/Debug/UnitTestProject.csproj.CoreCompileInputs.cache
+UnitTestingCSharp/UnitTestProject/obj/Debug/UnitTestProject.csproj.CopyComplete
+UnitTestingCSharp/UnitTestProject/bin/Debug/System.Threading.Tasks.Extensions.xml
+UnitTestingCSharp/UnitTestProject/bin/Debug/System.Runtime.CompilerServices.Unsafe.xml
+UnitTestingCSharp/UnitTestProject/bin/Debug/Moq.xml
+UnitTestingCSharp/UnitTestProject/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+UnitTestingCSharp/UnitTestProject/bin/Debug/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+UnitTestingCSharp/UnitTestProject/bin/Debug/Castle.Core.xml
+UnitTestingCSharp/.vs/UnitTestingCSharp/v16/TestStore/0/000.testlog
+*.testlog
