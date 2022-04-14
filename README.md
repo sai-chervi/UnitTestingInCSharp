@@ -8,6 +8,6 @@ This project explains how to write unit tests for different types of methods in 
 4. Static method in a non-static class
 5. Method that references a Singleton 
 
-Also it explains how to retrieve value of 
+Also it explains how to retrieve value of below variables in an unit test.
 1. Private instance variables
 2. Private static variables
