@@ -23,3 +23,6 @@ UnitTestingCSharp/UnitTestProject/bin/Debug/Microsoft.VisualStudio.TestPlatform.
 UnitTestingCSharp/UnitTestProject/bin/Debug/Castle.Core.xml
 UnitTestingCSharp/.vs/UnitTestingCSharp/v16/TestStore/0/000.testlog
 *.testlog
+*.testlog
+UnitTestingCSharp/.vs/UnitTestingCSharp/v16/TestStore/0/000.testlog
+*.testlog

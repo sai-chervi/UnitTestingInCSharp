@@ -1,9 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
+
+[assembly: InternalsVisibleTo("DynamicProxyGenAssembly2")]
 namespace UnitTestingCSharp
 {
     internal class StaticMethodInNonStaticClass
@@ -52,6 +55,7 @@ namespace UnitTestingCSharp
                 Logger.Write(message);
             }
         }
+
         public interface IWrapper
         {
             void LogData(string message);

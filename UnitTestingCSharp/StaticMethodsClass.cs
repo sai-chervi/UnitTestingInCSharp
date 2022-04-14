@@ -10,14 +10,17 @@ namespace UnitTestingCSharp
 {
 	internal class StaticMethodsClass
 	{
+		static int product, dividend;
 		public static int PublicStaticMethod_Multiply(int a, int b)
 		{
-			return a * b;
+			product = a * b;
+			return product;
 		}
 
 		private static int PrivateStaticMethod_Divide(int a, int b)
 		{
-			return a / b;
+			dividend = a / b;
+			return dividend;
 		}
 	}
 }
